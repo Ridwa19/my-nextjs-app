@@ -1,5 +1,13 @@
 
 import Link from "next/link"
+//import { metadata } from "./layout"
+
+export const metadata={
+  title:"aboute me learn next js day two ",
+  description:"this is my first next js app",
+
+}
+
 export default function Home() {
   return (
     <main className="flex flex-col justify-center min-h-screen bg-white">
@@ -13,7 +21,7 @@ export default function Home() {
 
 
 
-<div class="min-h-screen bg-white dark:bg-gray-900 text-gray-800 dark:text-white font-sans transition-all duration-300">
+<div className="min-h-screen bg-white dark:bg-gray-900 text-gray-800 dark:text-white font-sans transition-all duration-300">
   
 
   <header class="flex items-center justify-between px-6 py-4 shadow-md">
